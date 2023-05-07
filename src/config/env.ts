@@ -1,0 +1,1 @@
+export const env: any = (envKey: string, defaultValue = null) => import.meta.env[`VITE_${envKey.toUpperCase()}`] ?? defaultValue;
