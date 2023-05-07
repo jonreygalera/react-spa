@@ -1,9 +1,13 @@
 import React from 'react';
 
-const WelcomePage: React.FC = () => {
+interface Props {
+
+}
+
+const WelcomePage: React.FC<Props> = (props) => {
   return (
     <div>
-      <h1>Welcome Human!</h1>
+      <h1>About</h1>
     </div>
   );
 }
